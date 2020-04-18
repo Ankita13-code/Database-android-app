@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "851142209630",
+    "firebase_url": "https://assignments-dbc42.firebaseio.com",
+    "project_id": "assignments-dbc42",
+    "storage_bucket": "assignments-dbc42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851142209630:android:846e49d8f6000a148184cf",
+        "android_client_info": {
+          "package_name": "com.example.android.studentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851142209630-6c08rcn81guakdbsgjtshncee8pfpgfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdaOVOVW9mL1kjsqXfkjtRYSSgB2D_F-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851142209630-6c08rcn81guakdbsgjtshncee8pfpgfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
