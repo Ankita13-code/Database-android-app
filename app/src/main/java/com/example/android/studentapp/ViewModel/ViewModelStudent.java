@@ -1,4 +1,4 @@
-package com.example.android.studentapp;
+package com.example.android.studentapp.ViewModel;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;

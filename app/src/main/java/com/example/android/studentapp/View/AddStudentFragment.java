@@ -1,4 +1,4 @@
-package com.example.android.studentapp;
+package com.example.android.studentapp.View;
 
 import android.content.Context;
 import android.net.Uri;
@@ -16,6 +16,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.android.studentapp.Model.StudentModel;
+import com.example.android.studentapp.R;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;

@@ -1,4 +1,4 @@
-package com.example.android.studentapp;
+package com.example.android.studentapp.ViewModel;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
@@ -10,8 +10,8 @@ import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
 class FireBaseQueryLiveData extends LiveData<DataSnapshot> {
-    private final Query query;
-    private final MyValueEventListener listener =new MyValueEventListener();
+     final Query query;
+     final MyValueEventListener listener =new MyValueEventListener();
 
 
      FireBaseQueryLiveData(DatabaseReference ref){

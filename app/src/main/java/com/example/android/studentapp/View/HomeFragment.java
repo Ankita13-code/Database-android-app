@@ -1,13 +1,11 @@
-package com.example.android.studentapp;
+package com.example.android.studentapp.View;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.Observer;
@@ -19,6 +17,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.android.studentapp.Adapter.StudentAdapter;
 import com.example.android.studentapp.Model.StudentModel;
+import com.example.android.studentapp.R;
+import com.example.android.studentapp.ViewModel.ViewModelStudent;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
