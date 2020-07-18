@@ -1,10 +1,4 @@
-# Assignment-1
-Lecture - 1 : Android development
+#Student Database App
 
-Topics Learnt through this lecture -
-Fragments
-LiveData
-ViewModel
-Navigation components and navigation architecture
-MVVM and single activity architecture
-Recycler view and firebase
+It is an android app made on MVVM architecture using firebase.
+It takes the details of the students, stores them in firebase realtime database and then displays a list of those students in a Recycler view.
