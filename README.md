@@ -1,4 +1,4 @@
-Student Database App
+# Student Database App
 
 It is an android app made on MVVM architecture using firebase.
 
