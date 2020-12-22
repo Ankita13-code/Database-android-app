@@ -4,18 +4,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".View.StudentDetailsFragment">
-
+    tools:context=".View.AddStudentFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Student Details"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        android:layout_margin="20dp"
+        android:text="ADD Student Data"
+        android:textAllCaps="true"
+        android:textSize="25sp"
         android:textStyle="bold"
-        android:textAllCaps="true"/>
+        android:textAlignment="center"/>
 
     <TextView
         android:id="@+id/name_tv"
@@ -23,7 +21,7 @@
         android:layout_height="wrap_content"
         android:text="Name: "
         android:textSize="15sp"/>
-    <TextView
+    <EditText
         android:id="@+id/student_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,7 +33,7 @@
         android:layout_height="wrap_content"
         android:text="Enrollment No.: "
         android:textSize="15sp"/>
-    <TextView
+    <EditText
         android:id="@+id/enrollment_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -47,7 +45,7 @@
         android:layout_height="wrap_content"
         android:text="Branch: "
         android:textSize="15sp"/>
-    <TextView
+    <EditText
         android:id="@+id/branch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -59,7 +57,7 @@
         android:layout_height="wrap_content"
         android:text="Bhawan: "
         android:textSize="15sp"/>
-    <TextView
+    <EditText
         android:id="@+id/bhawan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -71,12 +69,23 @@
         android:layout_height="wrap_content"
         android:text="Phone No.: "
         android:textSize="15sp"/>
-    <TextView
+    <EditText
         android:id="@+id/phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="15sp"
         android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/add_bn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_gravity="end"
+        android:layout_margin="15dp"
+        android:backgroundTint="@android:color/holo_blue_dark"/>
+
+
 
 
 </LinearLayout>

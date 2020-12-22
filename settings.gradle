@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':testlibrary'
 rootProject.name='StudentApp'
